@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <Fieldset>
+
+        <form>
+            <h4>...........RAILWAY</h4>
+            <h2>RESERVATION/CANCELLATION REQUISITION FORM</h2>
+            <p>If you are a Medical Practitioner
+                <br>
+                <Input type="checkbox">Please tick in box Dr.<input type="textarea" class="doctor"
+                    placeholder="enter your doctor name"></Input>
+                <br>
+                (You could be of help in an emergency)
+            </p>
+            <br>
+            <label>Train No.</label>
+            <input type="text" name="Tnumber" class="tnumber" placeholder="enter your train number">
+            <label>Train Name</label>
+            <input type="text" name="TName" class="tname" placeholder="enter your train name">
+            <label>Date of journey</label>
+            <input type="date" name="date" class="date" placeholder="select your journey date">
+            <br>
+            <label>Class</label>
+            <select title="class">
+                <option>GENERAL</option>
+                <option>sleeper</option>
+                <option>AC-3RD</option>
+                <option>AC-2ND</option>
+                <option>AC-1ST</option>
+            </select>
+
+            <label>NO. of Berth/Seat</label>
+            <input type="number" name="numberofseats" placeholder="please select your no. of seats">
+            <BR>
+            <label>Station from</label>
+            <input type="text" name="reeservationfrom" placeholder="Reservation from">
+            <label>To</label>
+            <input type="text" name="reservationupto" placeholder="reservation upto">
+            <br>
+            <label>Boarding at</label>
+            <input type="text" name="boarding" placeholder="boardingstation">
+            <label>Reservation Upto</label>
+            <input type="text" name="redservationupto" placeholder="reservation upto">
+            <br>
+
+            <table>
+                >
+                <thead>
+                    <th><B>S.NO.</B></th>
+                    <th><B>Name in BLOCK LETTER(not more than 15 chars)</B></th>
+                    <th><B>SEX(M/F)</B></th>
+                    <th><B>AGE</B></th>
+                    <th><B>Concession/Travelauthority no.</B></th>
+                    <th><B>Choice if any(LB/UB/MB)</B></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>
+                            <input type="text" name="name1" placeholder="enter passenger name">
+                        </td>
+                        <td>
+                            <select title="GENDER">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" name="AGE1" placeholder="enter passenger AGE">
+                        </td>
+                        <td>
+                            <input type="text" name="CONSESSION1" placeholder="enter CONCESSION">
+                        </td>
+                        <td>
+                            <select title="Choice">
+                                <option>MB</option>
+                                <option>UB</option>
+                                <option>LB</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>
+                            <input type="text" name="name2" placeholder="enter passenger name">
+                        </td>
+                        <td>
+                            <select title="GENDER">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" name="AGE2" placeholder="enter passenger AGE">
+                        </td>
+                        <td>
+                            <input type="text" name="CONSESSION2" placeholder="enter CONCESSION">
+                        </td>
+                        <td>
+                            <select title="Choice">
+                                <option>MB</option>
+                                <option>UB</option>
+                                <option>LB</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>
+                            <input type="text" name="name3" placeholder="enter passenger name">
+                        </td>
+                        <td>
+                            <select title="GENDER">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" name="AGE3" placeholder="enter passenger AGE">
+                        </td>
+                        <td>
+                            <input type="text" name="CONSESSION3" placeholder="enter CONCESSION">
+                        </td>
+                        <td>
+                            <select title="Choice">
+                                <option>MB</option>
+                                <option>UB</option>
+                                <option>LB</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>
+                            <input type="text" name="name4" placeholder="enter passenger name">
+                        </td>
+                        <td>
+                            <select title="GENDER">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" name="AGE4" placeholder="enter passenger AGE">
+                        </td>
+                        <td>
+                            <input type="text" name="CONSESSION4" placeholder="enter CONCESSION">
+                        </td>
+                        <td>
+                            <select title="Choice">
+                                <option>MB</option>
+                                <option>UB</option>
+                                <option>LB</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>
+                            <input type="text" name="name5" placeholder="enter passenger name">
+                        </td>
+                        <td>
+                            <select title="GENDER">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" name="AGE5" placeholder="enter passenger AGE">
+                        </td>
+                        <td>
+                            <input type="text" name="CONSESSION5" placeholder="enter CONCESSION">
+                        </td>
+                        <td>
+                            <select title="Choice">
+                                <option>MB</option>
+                                <option>UB</option>
+                                <option>LB</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>
+                            <input type="text" name="name6" placeholder="enter passenger name">
+                        </td>
+                        <td>
+                            <select title="GENDER">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" name="AGE6" placeholder="enter passenger AGE">
+                        </td>
+                        <td>
+                            <input type="text" name="CONSESSION6" placeholder="enter CONCESSION">
+                        </td>
+                        <td>
+                            <select title="Choice">
+                                <option>MB</option>
+                                <option>UB</option>
+                                <option>LB</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>CHILDREN BELOW 5 YEARS (FOR WHOM TICKET IS NOT TO BE ISSUED)</p>
+            <TABLE>
+                <thead>
+                    <TH><B>S.no.</B></TH>
+                    <TH><B>NAME</B></TH>
+                    <TH><B>SEX</B></TH>
+                    <TH><B>AGE</B></TH>
+                </thead>
+                <TBODY>
+                    <TR>
+                        <TD>1.</TD>
+                        <TD><input type="text" placeholder="enter name of your child"></TD>
+                        <TD>
+                            <select title="gender">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </TD>
+                        <TD><input type="text" placeholder="enter age"></TD>
+
+                    </TR>
+                    <TR>
+                        <TD>2.</TD>
+                        <TD><input type="text" placeholder="enter name of your child"></TD>
+                        <TD>
+                            <select title="gender">
+                                <option>M</option>
+                                <option>F</option>
+                            </select>
+                        </TD>
+                        <TD><input type="text" placeholder="enter age"></TD>
+                    </TR>
+                </TBODY>
+            </TABLE>
+            <P>ONWARD/RETURN JOURNEY DETAILS</P>
+            <LABEL>Train no. & Name</LABEL>
+            <input type="text" placeholder="enter the train number & train name">
+            <label>Date</labeL>         
+            <input type="date" name="dateofjourney">
+            <br>
+            <label>Class</label>
+            <select title="Choice">
+                <option>MB</option>
+                <option>UB</option>
+                <option>LB</option>
+            </select>
+            <label>Station from</label>
+            <input type="text" name="reeservationfrom" placeholder="Reservation from">
+            <label>To</label>
+            <input type="text" name="reservationupto" placeholder="reservation upto">
+            <br>
+             <label>Name of applicant</label>
+            <input style="width:100% ;height:30px;" type="text" name="fname" placeholder="enter your first name">
+            <br>
+            <label>full address</label>
+            <input style="width: 100%;height: 100px;" type="text" name="lname" placeholder="enter your last name">
+        </form>
+    </Fieldset>
+</body>
+
+</html>
