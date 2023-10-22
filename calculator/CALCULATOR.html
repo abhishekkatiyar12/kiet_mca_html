@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="CALCULATOR.CSS">
+ 
+</head>
+<body>
+    <div id="calculator">
+        <h2>Calculator</h2>
+        
+        <textarea name="textarea" id ="display" readonly></textarea>
+        <div class="row">
+            <div class="button" onclick="addToDisplay('7')"><b>7</b></div>
+            <div class="button" onclick="addToDisplay('8')"><b>8</b></div>
+            <div class="button" onclick="addToDisplay('9')"><b>9</b></div>
+            <div class="button" onclick="addToDisplay('+')"><b>+</b></div>
+        </div>
+        <div class="row">
+            <div class="button" onclick="addToDisplay('4')"><b>4</b></div>
+            <div class="button" onclick="addToDisplay('5')"><b>5</b></div>
+            <div class="button" onclick="addToDisplay('6')"><b>6</b></div>
+            <div class="button" onclick="addToDisplay('-')"><b>-</b></div>
+        </div>
+        <div class="row">
+            <div class="button" onclick="addToDisplay('1')"><b>1</b></div>
+            <div class="button" onclick="addToDisplay('2')"><b>2</b></div>
+            <div class="button" onclick="addToDisplay('3')"><b>3</b></div>
+            <div class="button" onclick="addToDisplay('*')"><b>*</b></div>
+        </div>
+        <div class="row">
+            <div class="button" onclick="clearDisplay()"><B>C</B></div>
+            <div class="button" onclick="addToDisplay('0')"><b>0</b></div>
+            <div class="button" onclick="calculate()"><b>=</b></div>
+            <div class="button" onclick="addToDisplay('/')"><b>/</b></div>
+        </div>
+    </div>
+    <script src="CALCULATOR.JS"></script>
+</body>
+</html>
+  
